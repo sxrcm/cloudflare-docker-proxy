@@ -4,13 +4,13 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.e-whisper.com": "https://registry-1.docker.io",
-  "quay.e-whisper.com": "https://quay.io",
-  "gcr.e-whisper.com": "https://gcr.io",
-  "k8s-gcr.e-whisper.com": "https://k8s.gcr.io",
-  "k8s.e-whisper.com": "https://registry.k8s.io",
-  "ghcr.e-whisper.com": "https://ghcr.io",
-  "cloudsmith.e-whisper.com": "https://docker.cloudsmith.io",
+  "docker.465023.xyz": "https://registry-1.docker.io",
+  "quay.465023.xyz": "https://quay.io",
+  "gcr.465023.xyz": "https://gcr.io",
+  "k8s-gcr.465023.xyz": "https://k8s.gcr.io",
+  "k8s.465023.xyz": "https://registry.k8s.io",
+  "ghcr.465023.xyz": "https://ghcr.io",
+  "cloudsmith.465023.xyz": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
